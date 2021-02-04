@@ -1,0 +1,25 @@
+<?php
+#include "Library/dbconnect.php";
+
+  mysql_connect ("localhost","root","secret123") or
+                die ("Sorry! DBMS Connection failed!");
+        mysql_select_db("nextechltd") or
+                die ("Sorry! DB Connection failed!");
+        mysql_query("SET NAMES 'utf8'");
+
+                $servername = "localhost";
+                $usernames = "root";
+                $passwords = "Next@store@123"";
+                $dbname = "nextclou_nextstore";
+                $conn = mysqli_connect($servername, $usernames, $passwords, $dbname) or die("Connection failed: " . mysqli_connect_error()); 
+
+include 'Library.php';
+
+$haschange=pick('tbl_server_add','count(status)','status=1');
+$command=pick('tbl_server_add','command',"name='new_account' and status=1 and fail_status<1");
+$fail=pick('tbl_server_add','fail_status',"name='radius'");
+
+exec($command,$out,$ret);
+//print_r($out);
+
+ ?>

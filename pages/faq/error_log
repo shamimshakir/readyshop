@@ -1,0 +1,29 @@
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:45:27 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_get.php on line 43
+[21-Nov-2020 03:54:14 America/Chicago] PHP Notice:  Undefined variable: status in /home2/nextcloud/public_html/admin2/pages/faq/faq_form.php on line 46
+[28-Nov-2020 00:09:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/faq/faq.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[28-Nov-2020 00:09:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[02-Dec-2020 06:02:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/faq/faq.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[02-Dec-2020 06:02:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[02-Dec-2020 06:02:52 America/Chicago] PHP Notice:  Undefined variable: tt in /home2/nextcloud/public_html/admin2/library/library.php on line 389
+[06-Dec-2020 22:53:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/faq/faq.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[06-Dec-2020 22:53:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[06-Dec-2020 22:53:28 America/Chicago] PHP Notice:  Undefined variable: tt in /home2/nextcloud/public_html/admin2/library/library.php on line 389
+[11-Dec-2020 22:58:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/faq/faq.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[11-Dec-2020 22:58:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[11-Dec-2020 22:58:48 America/Chicago] PHP Notice:  Undefined variable: tt in /home2/nextcloud/public_html/admin2/library/library.php on line 389
+[11-Dec-2020 22:58:50 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[11-Dec-2020 22:58:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/faq/faq_form.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[11-Dec-2020 22:58:50 America/Chicago] PHP Notice:  Undefined variable: faq_question in /home2/nextcloud/public_html/admin2/pages/faq/faq_form.php on line 33
+[11-Dec-2020 22:58:50 America/Chicago] PHP Notice:  Undefined variable: faq_answer in /home2/nextcloud/public_html/admin2/pages/faq/faq_form.php on line 39
+[11-Dec-2020 22:58:50 America/Chicago] PHP Notice:  Undefined variable: active_status in /home2/nextcloud/public_html/admin2/pages/faq/faq_form.php on line 46

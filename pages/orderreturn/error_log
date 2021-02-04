@@ -1,0 +1,78 @@
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[10-Nov-2020 03:44:59 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/nextstore/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[23-Nov-2020 04:30:56 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:10:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:10:08 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:20:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:00 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:20:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:20:26 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:26:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/header.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60
+[25-Nov-2020 01:26:23 America/Chicago] PHP Notice:  Undefined index: vendor_id in /home2/nextcloud/public_html/admin2/pages/orderreturn/orderreturn_get.php on line 60

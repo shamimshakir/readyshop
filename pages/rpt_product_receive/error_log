@@ -1,0 +1,6 @@
+[07-Dec-2020 19:15:50 America/Chicago] PHP Notice:  Undefined variable: cond in /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive_get.php on line 72
+[10-Dec-2020 05:35:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive.php:2) in /home2/nextcloud/public_html/admin2/pages/header.php on line 5
+[10-Dec-2020 05:35:16 America/Chicago] PHP Notice:  Undefined variable: client_id in /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive.php on line 17
+[10-Dec-2020 05:35:16 America/Chicago] PHP Notice:  Undefined variable: cat_id in /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive.php on line 23
+[10-Dec-2020 05:35:16 America/Chicago] PHP Notice:  Undefined variable: fromentry_date in /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive.php on line 40
+[10-Dec-2020 05:35:16 America/Chicago] PHP Notice:  Undefined variable: toentry_date in /home2/nextcloud/public_html/admin2/pages/rpt_product_receive/rpt_product_receive.php on line 44

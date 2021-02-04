@@ -1,0 +1,150 @@
+<?php include('../header.php');
+$mode = 1;
+if(isset($_REQUEST['cl_id'])){
+    $cl_id = $_REQUEST['cl_id'];
+    $mode = 2;
+    $SeNTlist = "SELECT tbl_customer.*, Date(tbl_customer.user_regdate) AS userRegDate FROM tbl_customer WHERE cl_id = '$cl_id' ";
+    $ExSeNTlist=mysqli_query($conn, $SeNTlist) or die(mysqli_error($conn));
+    $rowNewsTls=mysqli_num_rows($ExSeNTlist);
+    $rowNewsTl=mysqli_fetch_array($ExSeNTlist);
+    extract($rowNewsTl);
+}
+
+?>
+<div id="mainContent">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="card m-b-20">
+                <div class="card-body">
+                    <?php if ($mode == 1){ ?>
+                        <h4 class="mt-0 header-title">Add Customer</h4>
+                    <?php }elseif ($mode = 2){ ?>
+                        <h4 class="mt-0 header-title">Edit Customer</h4>
+                    <?php }?>
+
+
+                    <form id="customer_add_form" class="" action="#" novalidate="">
+                        <input type="hidden" name="mode" value="<?php echo $mode;?>">
+                        <input type="hidden" name="cl_id" value="<?php  if($mode==2){echo $cl_id;}?>">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="firstname">First Name <span style="color:red;">*</span></label>
+                                    <input type="text" class="form-control" name="firstname" id="firstname" value="<?php echo $firstname; ?>" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="lastname">Last Name</label>
+                                    <input type="text" class="form-control"  name="lastname" id="lastname" value="<?php echo $lastname; ?>">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="email">Email <span style="color:red;">*</span></label>
+                                    <input type="email" class="form-control" name="email" id="email" value="<?php echo $email; ?>" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="cl_code">Password <span style="color:red;">*</span></label>
+                                    <input type="text" class="form-control" name="cl_code" id="cl_code" value="<?php echo $cl_code; ?>" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="street">Street</label>
+                                    <input type="text" class="form-control" name="street" id="street" value="<?php echo $street; ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <input type="text" class="form-control" name="city" id="city" value="<?php echo $city; ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <input type="text" class="form-control" name="country" id="country" value="<?php echo $country; ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" class="form-control" name="company" id="company" value="<?php echo $company; ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control" name="phone" id="phone" value="<?php echo $phone; ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="user_regdate">Registration date</label>
+                                    <input type="date" class="form-control" name="user_regdate" id="user_regdate" value="<?php if($mode == 2){ echo $userRegDate; }else{echo date('Y-m-d');} ?>" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <label for="varified_status">Status</label>
+                                
+                                    <select name='varified_status' id='varified_status' class='form-control'>
+                                        <option value="0">Select one</option>
+                                        <option value="1" <?php echo $varified_status == 1 ? "selected" : "" ?> >Varified</option>
+                                        <option value="0" <?php echo $varified_status == 0 ? "selected" : "" ?> >Non varified</option>
+                                    </select>
+                        
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="address">Address</label>
+                                    <textarea name="address" class="form-control"  id="address"><?php echo $address; ?></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-0 d-flex justify-content-end">
+                            <div>
+                                <button type="button" class="btn btn-secondary waves-effect" onclick="view_data()">Cancel</button>
+                                <?php if ($mode == 1){ ?>
+                                    <button type="button" onclick="save()" class="btn btn-primary waves-effect waves-light mr-1">Save</button>
+                                <?php }elseif($mode == 2){ ?>
+                                    <button type="button" onclick="save()"  class="btn btn-primary waves-effect waves-light mr-1">Update</button>
+                                <?php }?>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include('../footer.php')?>
+
+<script>
+    function save() {
+        if($('form').parsley().validate()){
+            $.ajax({
+                type: "POST",
+                url: "pages/customer/customer_save.php",
+                data: $('#customer_add_form').serialize()
+            }).done(function(response) {
+                alertify.set('notifier','position', 'bottom-right');
+                alertify.success(response);
+                view_data();
+            }).fail(function() {
+                alertify.notify(response, 'error', 3)
+            });
+        }
+    }
+
+
+
+</script>
+
+

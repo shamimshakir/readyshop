@@ -1,0 +1,70 @@
+<?php
+include( '../header.php' );
+
+$mode = $_POST['mode'];
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$cl_id = $_POST['cl_id'];
+$cl_code = $_POST['cl_code'];
+$street = $_POST['street'];
+$city = $_POST['city'];
+$country = $_POST['country'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$user_regdate = $_POST['user_regdate'];
+$varified_status = $_POST['varified_status'];
+$address = $_POST['address'];
+
+if ($mode == 1) {
+    $sql = "INSERT 
+        INTO tbl_customer (
+            firstname,
+            lastname,
+            cl_code,
+            street,
+            city,
+            country,
+            phone,
+            email,
+            user_regdate,
+            varified_status,
+            address
+        ) 
+        VALUES (
+            '$firstname',
+            '$lastname',
+            '$cl_code',
+            '$street',
+            '$city',
+            '$country',
+            '$phone',
+            '$email',
+            '$user_regdate',
+            '$varified_status',
+            '$address'
+        )";
+    $runSql = mysqli_query($conn,$sql) or die(mysqli_error($conn));
+    if($runSql){
+        echo "Data successfully added";
+    }else{
+        echo "Failed to add data";
+    }
+}
+else if ($mode == 2){
+    $sql = mysqli_query($conn, "UPDATE tbl_customer 
+        SET     
+            firstname = '$firstname',                           
+            lastname = '$lastname',                           
+            cl_code = '$cl_code',     
+            email = '$email',              
+            user_regdate = '$user_regdate',              
+            varified_status = '$varified_status',              
+        WHERE cl_id  = '$cl_id' ");
+
+    if($sql){
+        echo "Data successfully updated";
+    }else{
+        echo "Failed to update data";
+    }
+}
+?>
